@@ -1,0 +1,14 @@
+{{!< shell}}
+
+{{#post}}
+  <h1 class="article-title">{{title}}</h1>
+  <div class="article-statistics">
+    <div class="article-time">Published by {{authors}} on {{date}} at {{date format="h:mm A"}}.</div>
+    {{#if tags}}
+      <div class="article-tags">Filed under {{tags}}</a>.</div>
+    {{/if}}
+  </div>
+  <article class="article-body">
+    {{content}}
+  </article>
+{{/post}}

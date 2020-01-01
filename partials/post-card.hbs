@@ -1,0 +1,16 @@
+<article class="post-card {{post_class}}">  
+  <a href="{{url}}">
+    <h1 class="post-card-title">
+      {{title}}
+    </h1>
+
+    <section class="post-card-excerpt article-body">
+      <p>{{content words="80"}}</p>
+    </section>  
+  </a>
+  <div class="post-card-meta">
+    <div class="post-card-date">Published by {{authors}} on {{date}} at {{date format="h:mm A"}}.</div>
+    <div class="post-card-tags">Filed under {{tags}}.</div>
+    <div class="post-card-reading-time">About {{reading_time minute=(t "1 minute") minutes=(t "% minutes")}} of content.</div>
+  </div>   
+</article>
