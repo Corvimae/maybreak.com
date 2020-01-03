@@ -33,9 +33,10 @@ const getRibbonColors = () => {
     case '03/31':
       return [
         '#44cdfc',
-        '#f0f0f0',
+        '#f7a8b8',
         '#ffffff',
-        '#f7a8b8'
+        '#f7a8b8',
+        '#44cdfc'
       ]
       
     default:
