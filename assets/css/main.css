@@ -1,6 +1,7 @@
 :root {
   --background: #fafafa;
   --text: #333;
+  --text-caption: #666;
   --text-light: #999;
   --link: #2984e2;
   --accent: #b46be2;
@@ -674,25 +675,27 @@ article.post-card:not(:last-of-type) {
 
 .article-body {
   color: #222;
-  font-size: 1rem;
+  font-size: 1.125rem;
   line-height: 1.6em;
+  max-width: 1440px;
   padding-bottom: 1rem;
 }
 
 .article-body h2 {
-  font-size: 1.75rem;
-  margin: 1.5rem 0 0.5rem 0;
+  font-size: 2rem;
+  margin: 1.5rem 0 1.25rem 0;
 }
 
 .article-body h3 {
-  font-size: 1.5rem;
-  margin: 1.5rem 0 0.25rem 0;
+  font-size: 1.75rem;
+  margin: 1.5rem 0 1rem 0;
 }
 
 .article-body p,
 .article-body li {
   font-family: "Merriweather", sans-serif;
   line-height: 1.52em;
+  margin-bottom: 1.2rem;
 }
 
 .article-body img {
@@ -734,6 +737,15 @@ article.post-card:not(:last-of-type) {
   border: none;
   background-color: #ccc;
   height: 1px;
+}
+
+.article-body figure {
+  margin: 1.25rem 0;
+}
+
+.article-body figure figcaption {
+  font-size: 0.875rem;
+  color: var(--text-caption);
 }
 
 .pagination {
