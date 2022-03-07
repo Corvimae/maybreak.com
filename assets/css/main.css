@@ -107,7 +107,8 @@ body {
 }
 ol,
 ul {
-  list-style: none;
+padding-left: 2.5rem;
+margin-bottom: 1.2rem;
 }
 blockquote,
 q {
@@ -698,6 +699,9 @@ article.post-card:not(:last-of-type) {
   margin-bottom: 1.2rem;
 }
 
+.article-body li {
+  margin-bottom: 0.5rem;
+}
 .article-body img {
   max-width: 100%;
 }
