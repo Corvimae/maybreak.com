@@ -339,6 +339,11 @@ a {
   flex-direction: column;
 }
 
+.site-header ul {
+  margin-bottom: 0;
+  list-style: none;
+}
+
 .site-footer {
   display: flex;
   flex-direction: row;
